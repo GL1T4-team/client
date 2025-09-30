@@ -12,7 +12,6 @@ const GlobalStyle = createGlobalStyle`
     
     body {
         font-family: Helvetica, sans-serif;
-        height: 100vh;
     }`;
 
 export default GlobalStyle;
