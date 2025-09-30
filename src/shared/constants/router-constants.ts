@@ -1,5 +1,7 @@
 export const ROUTES = {
     HOME: "/",
-    DASHBAORD: "/dashboard",
-    REPORT: "/create-report",
+    DASHBOARD: "/dashboard",
+    CREATE_REPORT: "/create-report",
+    UPLOADS: "/uploads",
+    SETTINGS: "/settings",
 };
