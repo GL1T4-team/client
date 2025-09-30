@@ -1,3 +1,4 @@
+import { ROUTES } from "@/shared/constants";
 import {
     Container,
     User,
@@ -15,16 +16,24 @@ const Sidebar = () => {
             </User>
             <NavList>
                 <NavListItem>
-                    <NavListItemLink>Дашборд</NavListItemLink>
+                    <NavListItemLink to={ROUTES.DASHBOARD}>
+                        Дашборд
+                    </NavListItemLink>
                 </NavListItem>
                 <NavListItem>
-                    <NavListItemLink>Создать отчет</NavListItemLink>
+                    <NavListItemLink to={ROUTES.CREATE_REPORT}>
+                        Создать отчет
+                    </NavListItemLink>
                 </NavListItem>
                 <NavListItem>
-                    <NavListItemLink>Загрузки</NavListItemLink>
+                    <NavListItemLink to={ROUTES.UPLOADS}>
+                        Загрузки
+                    </NavListItemLink>
                 </NavListItem>
                 <NavListItem>
-                    <NavListItemLink>Настройки</NavListItemLink>
+                    <NavListItemLink to={ROUTES.SETTINGS}>
+                        Настройки
+                    </NavListItemLink>
                 </NavListItem>
             </NavList>
         </Container>

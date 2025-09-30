@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -27,7 +28,7 @@ export const NavListItem = styled.li`
     text-decoration: none;
 `;
 
-export const NavListItemLink = styled.div`
+export const NavListItemLink = styled(NavLink)`
     display: block;
     width: 100%;
     text-decoration: none;
