@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        font-family: Helvetica, sans-serif;
+        font-family: Montserrat, sans-serif;
     }`;
 
 export default GlobalStyle;

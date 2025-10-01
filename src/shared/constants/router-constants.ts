@@ -4,4 +4,5 @@ export const ROUTES = {
     CREATE_REPORT: "/create-report",
     UPLOADS: "/uploads",
     SETTINGS: "/settings",
+    AUTH: "/auth",
 };
