@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 5px 0 0 64px;
+    padding: 25px 0 0 50px;
 `;
 
 export const Title = styled.div`
     font-size: 48px;
-    color: #0a0909;
+    height: 10%;
+    color: #2c3e50;
 `;

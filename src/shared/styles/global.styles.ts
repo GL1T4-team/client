@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
     
     body {
-        font-family: Montserrat, sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }`;
 
 export default GlobalStyle;

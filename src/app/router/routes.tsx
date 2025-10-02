@@ -3,7 +3,7 @@ import { ROUTES } from "@/shared/constants";
 import MainContainer from "@/shared/components/main-container/main-container";
 import DashboardPage from "@/pages/dashboard-page/dashboard-page";
 import CreateReportPage from "@/pages/create-report-page/create-report-page";
-import UploadsPage from "@/pages/uploads-page/uploads-page";
+import UploadsPage from "@/pages/uploads-page/ui/uploads-page";
 import SettingsPage from "@/pages/settings-page/settings-page";
 import AuthPage from "@/pages/auth-page/ui/auth-page.tsx";
 
