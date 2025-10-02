@@ -3,6 +3,7 @@ import { useAuthStore } from "../model/store";
 
 const api = axios.create({
     baseURL: "http://localhost:3000/api",
+    withCredentials: true,
 });
 
 api.interceptors.request.use((config) => {
