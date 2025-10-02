@@ -6,42 +6,31 @@ import CreateReportPage from "@/pages/create-report-page/create-report-page";
 import UploadsPage from "@/pages/uploads-page/uploads-page";
 import SettingsPage from "@/pages/settings-page/settings-page";
 import AuthPage from "@/pages/auth-page/ui/auth-page.tsx";
-import { AuthGuard, GuestGuard } from "@/features/auth/lib/router-guard";
 
 const routes = createBrowserRouter([
     {
-        element: <GuestGuard />,
-        children: [
-            {
-                path: ROUTES.AUTH,
-                element: <AuthPage />,
-            },
-        ],
+        path: ROUTES.AUTH,
+        element: <AuthPage />,
     },
     {
-        element: <AuthGuard />,
+        path: ROUTES.HOME,
+        element: <MainContainer />,
         children: [
             {
-                path: ROUTES.HOME,
-                element: <MainContainer />,
-                children: [
-                    {
-                        path: ROUTES.DASHBOARD,
-                        element: <DashboardPage />,
-                    },
-                    {
-                        path: ROUTES.CREATE_REPORT,
-                        element: <CreateReportPage />,
-                    },
-                    {
-                        path: ROUTES.UPLOADS,
-                        element: <UploadsPage />,
-                    },
-                    {
-                        path: ROUTES.SETTINGS,
-                        element: <SettingsPage />,
-                    },
-                ],
+                path: ROUTES.DASHBOARD,
+                element: <DashboardPage />,
+            },
+            {
+                path: ROUTES.CREATE_REPORT,
+                element: <CreateReportPage />,
+            },
+            {
+                path: ROUTES.UPLOADS,
+                element: <UploadsPage />,
+            },
+            {
+                path: ROUTES.SETTINGS,
+                element: <SettingsPage />,
             },
         ],
     },
