@@ -21,7 +21,7 @@ export const AuthForm = styled(Form)`
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     padding: 40px;
-    
+
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
@@ -30,7 +30,7 @@ export const AuthForm = styled(Form)`
 export const Title = styled.h1`
     width: 100%;
     text-align: center;
-    color: #0A0909;
+    color: #0a0909;
     font-size: 48px;
 `;
 
@@ -39,7 +39,7 @@ export const InputWrapper = styled.div`
     flex-direction: column;
     position: relative;
     margin-bottom: 20px;
-`
+`;
 
 export const Label = styled.label`
     font-size: 28px;
@@ -48,12 +48,12 @@ export const Label = styled.label`
 export const Input = styled(Field)`
     width: 640px;
     height: 50px;
-    background: #F4F7FC;
+    background: #f4f7fc;
     padding: 10px;
     font-size: 24px;
-    
-    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.15); ;
-    
+
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.15);
+
     border: none;
     outline: none;
 `;
@@ -61,9 +61,9 @@ export const Input = styled(Field)`
 export const SubmitButton = styled.button`
     width: 170px;
     height: 65px;
-    background-color: #0A0909;
+    background-color: #0a0909;
     border-radius: 20px;
-    color: #FEFEFE;
+    color: #fefefe;
     font-size: 30px;
     font-weight: 600;
     border: none;
@@ -74,5 +74,3 @@ export const SubmitButton = styled.button`
         background-color: rgba(10, 9, 9, 0.9);
     }
 `;
-
-
