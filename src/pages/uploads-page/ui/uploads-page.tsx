@@ -19,11 +19,7 @@ import {
     Title,
     UploadContainer,
 } from "./styles";
-
-interface CsvFile {
-    name: string;
-    data: string;
-}
+import type { CsvFile } from "../model/types";
 
 const ExcelCsvUploader: React.FC = () => {
     const [loading, setLoading] = useState(false);
